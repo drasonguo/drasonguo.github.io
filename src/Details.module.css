@@ -27,18 +27,12 @@
     transform: translateY(-10px);
 }
 
-.noPar{
-    display: none;
-}
-
 .content{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    height: 100vh;
-    margin-top: 30vh;
 }
 
 .tabContents{
@@ -56,33 +50,24 @@
 }
 
 .btn{
-    display: inline-block;
-    width: fit-content;
+    display: block;
+    width: 250px;
     border: 1px solid #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
     background: #ff004f;
-}
-
-@media screen and (max-height: 1000px) {
-    .noPar{
-        display: block;
-    }
-
-    .par{
-        display: none;
-    }
-
-    .content{
-        height: 100%;
-    }
+    margin: 20px 0px;
 }
 
 @media screen and (max-width: 740px) {
     .tabTitles div div span{
         display: block;
+    }
+
+    .tabContents{
+        width: 60%;
     }
 }
 
@@ -94,6 +79,10 @@
     .tabTitles{
         gap: 20px;
     }
+
+    .tabContents{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -103,5 +92,9 @@
 
     .tabTitles{
         gap: 5px;
+    }
+
+    .tabContents{
+        width: 100%;
     }
 }

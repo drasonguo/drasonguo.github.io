@@ -31,7 +31,27 @@
     text-decoration: none;
     color: #fff;
     transition: background-color 0.5s;
+    height: 25%;
 }
 .btn:hover{
     background: #ff004f;
+}
+
+@media screen and (max-width: 1050px) {
+    .btn{
+        font-size: 24px;
+    }
+
+    .container{
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .left{
+        height: 25%;
+    }
+
+    .right{
+        height: 75%;
+    }
 }
