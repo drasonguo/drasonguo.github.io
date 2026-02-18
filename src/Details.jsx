@@ -52,7 +52,7 @@ orders, delivering food and water to tables and ensure that it was a clean envir
                     Understood the importances of good git practice, with proper naming conventions and branching strategies. Jira tickets were used to assign tasks, resulting in usages of ReactJS to make front-end changes</li>
                     <li><h3>Technology Solutions Graduate | FNZ Group | Sep 2024 - May 2025</h3>Graduate program where we rotated through software development, software testing, and production support.
                     Learnt about the Software Development Life Cycle (SDLC) and how to conduct testing via JIRA Xray. Developed using VB, C#, and JavaScript in ASP .NET</li>
-                    <li><h3>Analyst Developer | FNZ Group | Nov 2022 - Feb 2023</h3>Worked primarily around developing RESTful APIs using ASP .NET Core, following proper REST principles such as standard HTTP methods for CRUD operations, 
+                    <li><h3>Analyst Developer | FNZ Group | May 2025 - Present</h3>Worked primarily around developing RESTful APIs using ASP .NET Core, following proper REST principles such as standard HTTP methods for CRUD operations, 
                     error handling, and being stateless. Also worked with SQL, creating tables, views, stored procedures etc, integrating these into the codebase as well as implementing efficient LINQ queries to filter and retrieve relational data</li>
                 </ul>
                 <ul className={`${styles.tab} ${tabval==2 && styles.activeTab}`}>
