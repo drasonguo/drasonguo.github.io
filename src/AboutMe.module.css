@@ -99,7 +99,11 @@ ul {
         display: block;
     }
 
-    .container{
+    .content{
         display: none;
+    }
+
+    .container{
+        height: 100%;
     }
 }

@@ -68,9 +68,8 @@ export default function AboutMe() {
                         </p>                   
                     </div>
                 </div>
-                <div className={styles.filler} ref={target} id="about"/>
-            </div>
-            <div className={styles.noPar}>
+                <div className={styles.filler} ref={target} id="about">
+                    <div className={styles.noPar}>
                 <div className={styles.noParContent}>
                     <img style={{flexBasis:"30%",borderRadius:"50%",width:"30%"}} src="/assets/dp.jpg"/>
                     <div style={{flexBasis:"65%"}}>
@@ -100,6 +99,9 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+                </div>
+            </div>
+            
         </>
     )
 }
